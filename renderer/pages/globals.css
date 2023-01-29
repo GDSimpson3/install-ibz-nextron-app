@@ -1,0 +1,147 @@
+:root {
+  --max-width: 1100px;
+ 
+  background-color: grey;
+  margin: 1%;
+}
+.heading{
+text-align: center;
+}
+.animationheader::before{
+  content:  '         ';
+  /* opacity: 100%; */
+
+  animation: animation infinite 15s;
+  color: grey;
+  /* padding-left: 10px; */
+  text-align: center;
+justify-content: center;
+}
+
+@keyframes animation {
+ 
+    /* content: "Welcome, Please select a language before you continue."; */
+
+    /* content: "Willkommen, bitte wählen Sie eine Sprache aus, bevor Sie fortfahren."; */
+
+ 0%{
+  color: grey;
+
+  content: "Welcome, Please select a language before you continue.";
+  color: black;
+ }
+ 25%{
+  color: grey;
+  content: "       ";
+  color: grey; }
+ 50%{
+  color: grey;
+
+  content: "Willkommen, bitte wählen Sie eine Sprache aus, bevor Sie fortfahren.";
+  color: black;
+
+ }
+ 75%{
+  color: grey;
+  content: "        ";
+  color: grey; }
+
+}
+
+a{
+  color:black;
+  
+  /* border */
+}
+.version{
+  text-align: center;
+}
+
+
+
+
+/* app created on */
+.createdon::before{
+  color: grey;
+
+  content:  'The app was created on : 28/01/23';
+  /* opacity: 100%; */
+
+  animation: animationcreated infinite 30s;
+  /* padding-left: 10px; */
+  text-align: center;
+justify-content: center;
+}
+
+@keyframes animationcreated {
+ 
+    /* content: "Welcome, Please select a language before you continue."; */
+
+    /* content: "Willkommen, bitte wählen Sie eine Sprache aus, bevor Sie fortfahren."; */
+
+ 0%{
+  color: grey;
+
+  content: "The app was created on : 28/01/23";
+  color: black;
+ }
+ 25%{
+  color: grey;
+  content: "The app was created on : 28/01/23";
+  color: grey; }
+ 50%{
+  color: grey;
+
+  content: "Die App wurde erstellt am: 28.01.23";
+  color: black;
+
+ }
+ 75%{
+  color: grey;
+  content: "Die App wurde erstellt am: 28.01.23";
+  color: grey; }
+
+}
+
+/* arch */
+.archon::before{
+  color: grey;
+
+  content:  'The app architecture was last updated on : 28/01/23';
+  /* opacity: 100%; */
+
+  animation: animationarchon infinite 30s;
+  /* padding-left: 10px; */
+  text-align: center;
+justify-content: center;
+}
+
+@keyframes animationarchon {
+ 
+    /* content: "Welcome, Please select a language before you continue."; */
+
+    /* content: "Willkommen, bitte wählen Sie eine Sprache aus, bevor Sie fortfahren."; */
+
+ 0%{
+  color: grey;
+
+  content: "The app architecture was last updated on : 28/01/23";
+  color: black;
+ }
+ 25%{
+  color: grey;
+  content: "The app architecture was last updated on : 28/01/23";
+  color: grey; }
+ 50%{
+  color: grey;
+
+  content: "Die App-Architektur wurde zuletzt am 28.01.23 aktualisiert";
+  color: black;
+
+ }
+ 75%{
+  color: grey;
+  content: "Die App-Architektur wurde zuletzt am 28.01.23 aktualisiert";
+  color: grey; }
+
+}
