@@ -1,3 +1,5 @@
 ls
 npm install
-nextron build
+cd install-ibz-nextron-app
+npm install
+echo 'DONE !!!!'
